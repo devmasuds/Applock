@@ -1,0 +1,64 @@
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text{
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        li{
+            padding-top: 10px;
+            a{
+                font-family: "DM Sans";
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20.83px;
+                color: #ffffff;
+
+            }
+        }
+    }
+}
+.header-section{
+    background: #000;
+}
+.header-cultures{
+    h4{
+        font-family: "Open Sans";
+        font-size: 28.5px;
+        font-weight: 400;
+        line-height: 38.81px;
+        color: #ffffff;
+    }
+}
+.head-btn{
+    border: 1.5px solid #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+
+}
+.header-text .head-btn:hover{
+    background: #ffffff;
+    color: #000;
+}
+.header-section{
+    padding: 10px 0px;
+}
+
+.menu-fixed{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: rgb(0, 0, 0);
+
+}
+.menu-opner-list {
+    display: none;
+  }
+.header-close{
+    display: none;
+}

@@ -1,0 +1,82 @@
+.these-section{
+    background: #F5F5F5;
+    padding: 100px;
+}
+.these-cities{
+    h2{
+        color: #1A1A1A;
+text-align: center;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 182.5%; 
+img{
+    width: 26px;
+height: 6px;
+flex-shrink: 0;
+margin: 0 10px;
+}
+    }
+    p{
+        color: #474747;
+text-align: center;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%; 
+    }
+}
+.these-citi{
+    padding-top: 50px;
+}
+.card-body{
+    margin-top: 20px;
+    padding: 30px;
+    
+    button{
+        margin-top:30px;
+        width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #1A1A1A;
+    color:  #1A1A1A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 182.5%; 
+    i{
+        padding: 0 10px;
+    }
+    }
+}
+.card-titles{
+    
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.card-body:hover button{
+    color: #F88808;
+    border: 1px solid #F88808;
+}
+.swiper-pagination-bullet {
+
+    border-radius: 8px;
+border: 3px solid #f88808;
+background: none;
+    height: 10px;
+    width: 10px;
+    
+    
+  }
+  .swiper-pagination-bullet-active{
+    background-color:#F88808;
+  }

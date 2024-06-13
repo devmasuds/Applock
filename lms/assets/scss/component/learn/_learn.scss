@@ -1,0 +1,32 @@
+.learn-from-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.store-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    img{
+        height: 70px;
+        width: 200px;
+        border-radius: 10px;
+    }
+}
+.leran-from-text{
+    padding-top: 200px;
+    h3{
+        font-size:40px;
+        font-weight: 700;
+        font-family: serif;
+        margin-bottom: 20px; 
+    }
+    p{
+        font-size:20px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 50px;  
+    }
+
+}

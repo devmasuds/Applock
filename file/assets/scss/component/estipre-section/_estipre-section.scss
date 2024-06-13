@@ -1,0 +1,35 @@
+.estipre-section{
+    padding: 69px 0;
+    background-color: #1C133F;
+}
+
+.estiper-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.estiper-frist{
+    h3{
+font-family: "Archivo";
+font-size: 32px;
+font-weight: 700;
+line-height: 34.82px;
+text-align: center;
+color: #ffffff;
+
+    }
+}
+.estrper-bnt{
+    button{
+        padding: 16px 32px;
+        background-color: #5E3ED1;
+        color: white;
+        transition: .3s;
+    }
+}
+.estrper-bnt:hover button{
+ border: 1px solid #5E3ED1;
+ color:white;
+}

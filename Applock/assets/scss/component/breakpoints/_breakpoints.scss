@@ -1,0 +1,315 @@
+
+  // X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { 
+
+    .banner-ihring {
+        margin-top: 50px;
+      }
+      .banner-text {
+        padding-top: 70px;
+      }
+      .banner-text h2 {
+        font-size: 52px;
+      }
+      .discober-menu p {
+        font-size: 14px;
+      }
+      .most-expleore {
+        padding: 50px 0;
+      }
+      .text-last-menu {
+        padding: 30px 0;
+      }
+      .applock-menu ul li a {
+        font-size: 17px;
+      }
+      .key-item p {
+        font-size: 14px;
+      }
+      .footer-text h2 {
+        font-size: 46px;
+      }
+      .footer-text p {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      .header-section {
+        padding: 25px 0;
+      }
+      .how-does ul {
+        gap: 50px;
+      }
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    .applock-menu ul {
+        gap: 20px;
+      }
+      .banner-text h2 {
+        font-size: 42px;
+        line-height: 56px;
+      }
+      .banner-text-img {
+        display: flex;
+      }
+      .banner-img img {
+        height: 616px;
+      }
+      .banner-ihring {
+        gap: 10px;
+      }
+      .banner-happy h3 {
+        font-size: 25px;
+      }
+      .banner-rating h3 {
+        font-size: 28px;
+      }
+      .key-menu ul {
+        grid-template-columns: repeat(3, 2fr);
+      }
+      .key-head-text p {
+        font-size: 16px;
+      }
+      .how-does ul {
+        gap: 15px;
+      }
+      .how-item h3 {
+        font-size: 31px;
+        height: 65px;
+        width: 65px;
+      }
+      .how-item P {
+        font-size: 14px;
+      }
+      .key-head-text h3 {
+        font-size: 45px;
+      }
+      .swiper-pagination-bullets.swiper-pagination-horizontal {
+        left: 45%;
+      }
+      .footer-text h2 {
+        font-size: 37px;
+      }
+      .footer-text p {
+        font-size: 19px;
+      }
+      .footer-text {
+        padding: 25px;
+      }
+      .footer-text p {
+        margin-bottom: 40px;
+      }
+      .apploc-menu-list {
+        gap: 35px;
+      }
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .opne-menu{
+        display: block;
+        cursor: pointer;
+        padding: 0 10px;
+      }
+      .opne-menu{
+        display: block;
+        a{
+          color: #000000;
+      }
+      }
+      .apploc-menu-list{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        padding: 40px;
+        transition: .3s;
+        background-color: #fff;
+        color: #000;
+        z-index: 1;
+        display: block;
+        ul{
+          display: block;
+          li{
+            padding-bottom: 10px;
+            a{
+              color: #000;
+            }
+          }
+        }
+        &.active{
+            left: 0;
+            width: 100%;
+          height: 60vh;
+        }
+      }
+      .btn-close.header-close {
+        right: 50px;
+        position: absolute;
+        top: 50px;
+      }
+      .applock-btn {
+        margin-top: 15%;
+      }
+      .applock-btn button {
+        width: 100%;
+      }
+      .apploc-menu-list ul li {
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+      }
+      .header-close{
+        display: block;
+      }
+      .banner-ihring {
+        gap: 141px;
+      }
+      .banner-img img {
+        height: 705px;
+      }
+      .key-item p {
+        font-size: 16px;
+      }
+      .nlock-secrets {
+        padding: 30px 0;
+      }
+      .key-head-text p {
+        font-size: 23px;
+      }
+      .key-head-text p {
+        font-size: 21px;
+      }
+      .footer-text h2 {
+        font-size: 45px;
+      }
+      .footer-text p {
+        font-size: 20px;
+}
+.text-last-menu h6 {
+  font-size: 15px;
+}
+.banner-text h2 {
+  font-size: 61px;
+  line-height: 75px;
+}
+.key-head-text p {
+  font-size: 12px;
+}
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .banner-text h2 {
+    font-size: 43px;
+    line-height: 61px;
+  }
+  .banner-ihring {
+    gap: 48px;
+  }
+  .key-menu ul {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .key-head-text p {
+    font-size: 11px;
+  }
+  .how-does ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .how-does {
+    height: 514px;
+  }
+  .key-head-text p {
+    font-size: 15px;
+  }
+  .most-expleore {
+    padding: 30px 0;
+  }
+  .key-head-text h3 {
+    font-size: 35px;
+  }
+  .most-expleore-accordion button {
+    font-size: 15px;
+  }
+  .accordion-body {
+    font-size: 11px;
+  }
+  .footer-text h2 {
+    font-size: 36px;
+  }
+  .footer-text p {
+    font-size: 19px;
+  }
+  .text-last-menu h6 {
+    font-size: 10px;
+  }
+  .text-last-menu span ul li a {
+    color: #fff;
+    font-size: 16px;
+  }
+  .key-head-text p {
+    font-size: 17px;
+  }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+  .banner-text h2 {
+    font-size: 32px;
+    line-height: 61px;
+  }
+  .banner-text p {
+    font-size: 17px;
+  }
+  .banner-ihring {
+    gap: 5px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .key-menu ul {
+    grid-template-columns: repeat(1, 2fr);
+  }
+  .key-head-text p {
+    font-size: 15px;
+  }
+  .how-does ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nlic-video {
+    height: 40px;
+    width: 51px;
+  }
+  .key-head-text h3 {
+    font-size: 26px;
+  }
+  .accordion-body {
+    font-size: 7px;
+  }
+  .most-expleore-accordion button {
+    font-size: 10px;
+  }
+  .accordion-button:not(.collapsed)::after {
+    height: 12px;
+    width: 12px;
+  }
+  .footer-text {
+    padding: 10px;
+  }
+  .footer-text h2 {
+    font-size: 22px;
+  }
+  .footer-text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .text-last-menu {
+    display: block;
+
+  }
+  .text-last-menu h6 {
+    margin-bottom: 20px;
+  }
+ }
+
+
+
+
+
+
+
+

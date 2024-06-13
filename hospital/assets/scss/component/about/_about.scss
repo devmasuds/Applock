@@ -1,0 +1,82 @@
+.about-menu{
+    padding-top: 55px;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        gap: 60px;
+        li{
+            border-radius: 25px;
+            border: 1px solid #00A3FF;
+            padding: 50px;
+            background: #00a2ff05;
+        }
+    }
+}
+.about-menu ul li:hover{
+    background:#00A3FF;
+    i{
+        color: white;
+    }
+   h3{
+    color: white;
+   }
+   h6{
+    color: white;
+   }
+}
+.about-head-text{
+    h4{
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 500;
+        font-family: Butler;
+        color: #000000;
+    }
+}
+.about-section{
+    padding: 100px 0;
+}
+.ambu-menu{
+    transition: .3s;
+    i{
+       font-size: 32px;
+       color: #00A3FF;
+    }
+    h3{
+        padding-top: 30px;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: Butler;
+        color: #00A3FF;
+    }
+    h6{
+        padding-top: 60px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: Butler;
+        color: #00A3FF;
+    }
+}
+
+.about-taxt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-btn{
+    button{
+        border: 1px solid #00A3FF;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family:Roboto;
+        padding:10px 15px;
+    }
+}
+.about-btn button :hover{
+    background: #00A3FF;
+    color: white;
+}

@@ -1,0 +1,111 @@
+
+.testi-monials{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    img{
+        border-radius: 50%;
+    }
+    h5{
+        font-family: Butler;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+
+    }
+    span{
+        font-family: Jost;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.23px;
+        text-align: left;
+        padding-top: 5px;
+
+    }
+}
+.testimonials-menu{
+        border-radius: 8px;
+        background: #FFF;
+        -webkit-box-shadow: 6px 15px 50px 2px rgba(0, 0, 0, 0.087);
+        box-shadow: 6px 15px 50px 2px rgba(0, 0, 0, 0.087);
+        padding: 20px;
+        margin-bottom: 20px;
+      p{
+        font-family: Jost;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        padding-top: 20px;
+
+      }
+}
+.client-testimonials{
+    padding: 80px 0;
+}
+.client-text-head{
+    padding-bottom: 30px;
+    h3{
+        font-family: Butler;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.2px;
+        text-align: center;
+
+    }
+}
+
+.our-patients{
+    margin: 0 auto;
+
+
+}
+
+.patiente-menu{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background: #00A3FF;
+    padding: 60px;
+    border-radius: 25px;
+}
+.patiente-text{
+    padding-top: 10px;
+    h2{
+        font-family: Jost;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 57.8px;
+        text-align: left;
+        color: white;
+
+    }
+    p{
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28.9px;
+        text-align: left;
+        color: white;
+
+    }
+}
+.patiente-btn{
+    a{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 17.6px;
+        text-align: left;
+        color: #00A3FF;
+        padding: 15px 20px;
+        border-radius: 10px;
+
+
+    }
+}
+.patiente-btn a:hover{
+ color: red;
+ background: white;
+}

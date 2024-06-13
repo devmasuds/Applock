@@ -1,0 +1,48 @@
+.our-text-section{
+h1{
+    margin-bottom:2rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000;
+  font-size: 3rem;
+}
+P{
+    font-size: 1.25rem;
+  font-weight: 300;
+  padding-bottom: 3rem;
+}
+}
+.our-works{
+    padding: 5rem 0;
+}
+.list-photo{
+  position: relative;
+ 
+}
+.open-list{
+  color: #fff;
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.open-list{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ opacity: 0;
+ visibility: hidden;
+ z-index: -1;
+ transition: all .5s;
+}
+.list-photo:hover .open-list{
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+  
+}

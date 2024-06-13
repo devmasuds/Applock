@@ -1,0 +1,89 @@
+.experienc-doctor{
+    border: 1.5px solid #00A3FF;
+    border-radius: 25px;
+    display: block;
+    padding: 50px;
+    img{
+        height: 150px;
+        max-width: 150px;
+        border-radius: 50%;
+    }
+    h4{
+        font-family: Butler;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        padding-top: 25px;
+
+    }
+    span{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-top: 5px;
+
+
+    }
+    a{
+        border-radius: 10px;
+        border: 1px solid #00A3FF;
+        margin-top: 20px;
+        color: #00A3FF;
+
+
+
+    }
+    
+}
+.experienc-doctor a:hover{
+background: #00A3FF;
+ color: white;
+    
+}
+.meet-our-experience{
+    padding: 30px 0;
+}
+
+.doctor-text{
+    padding-top: 70px;
+    h3{
+        font-family: Butler;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.2px;
+        text-align: left;
+
+    }
+    p{
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        padding-top: 20px;
+
+    }
+    button{
+        box-shadow: 0px 4px 10px 0px #0A66C233;
+        background: #00A3FF;
+        padding:5px 15px;     
+        margin-top: 30px; 
+        transition: .3s;  
+        a{
+            color: white;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: left;
+            transition: .3s;  
+        }
+
+
+    }
+}
+.doctor-text button:hover a{
+    color: #00A3FF;
+}

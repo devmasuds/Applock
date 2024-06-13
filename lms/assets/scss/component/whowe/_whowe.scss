@@ -1,0 +1,38 @@
+.whowe-menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.whowe-text{
+    h2{
+        font-size:50px;
+        font-weight: 900;
+        font-family: serif;
+        margin-bottom: 20px; 
+    }
+    p{
+        font-size:20px;
+        font-weight: 100;
+        font-family: serif;
+        margin-bottom: 20px;  
+        width: 600px;
+    }
+    a{
+        padding: 10px 40px;
+        color: wheat;
+    }
+}
+.whowe-are-section{
+    background: rgba(75, 9, 229, 0.748);
+}
+.whowe-text a:hover {
+    border: 1px solid red;
+    color: red;
+    background: white;
+}
+.haring-text button a:hover {
+    border: 1px solid red;
+    color: red;
+    background: white;
+}

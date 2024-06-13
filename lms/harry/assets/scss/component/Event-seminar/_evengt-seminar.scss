@@ -1,0 +1,105 @@
+.menu-item-event{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: none ;
+    &:hover{
+        box-sizing: 5px 15px 50px 2px white;
+    }
+    h6{
+        display: flex;
+        font-family: "Space Grotesk";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 31px;
+        text-align: left;
+        color: #525258;
+    img{
+    height: 26px;
+    width: 26px;
+    margin-left: -10px;
+    }
+}
+a{
+    font-family: Space Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.86px;
+letter-spacing: -0.02em;
+color: #03041C;
+border: 1px solid #03041C;
+padding: 10px 30px;
+&:hover{
+    background-color: red;
+    color: white;
+    img{
+        color: white;
+    }
+}
+    img{
+        width: 7px;
+        height: 8px;
+        margin-left: 5px;
+    }
+}
+h4{
+    font-family: "Space Grotesk";
+font-size: 20px;
+font-weight: 700;
+line-height: 25.52px;
+text-align: left;
+color: #03041C;
+
+}
+span{
+    font-family: "Space Grotesk";
+font-size: 14px;
+font-weight: 500;
+line-height: 10px;
+text-align: left;
+color: #525258;
+}
+}
+.event-seminar{
+    background-color: #F0F0F5;
+}
+.seminar-menu-list{
+    padding: 100px;
+}
+.event-head-text{
+    h1{
+        font-family: "Space Grotesk";
+font-size: 60px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #03041C;
+margin-bottom: 50px;
+span{
+    color: red;
+}
+
+    }
+}
+.event-menu{
+    ul{
+        display: block;
+        padding-top: 100px;
+        li{
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.text-dounline2{
+    position: relative;
+    margin-top: -116px;
+    padding-left: 198px;
+    img{
+        height: 22px;
+        width: 220px;
+    }
+}

@@ -1,0 +1,86 @@
+.contact-whit{
+    padding: 80px 0;
+}
+.contact-getin{
+    h4{
+        font-family: "Manrope";
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        margin-bottom: 20px;
+        color: #4F5B78;
+    }
+    p{
+        font-family: "Manrope";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #4F5B78;
+    }
+}
+
+.get-in {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .get-in-icon{
+    i{
+        font-size: 20px;
+        color: #142653;
+    }
+  }
+
+  .get-ing-tect{
+    h6{
+        font-family: "Manrope";
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #142653;
+margin-bottom: 15px;
+    }
+    span{
+        font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #142653;
+    }
+  }
+
+  .input-group.mb-3 {
+    display: inline-block;
+
+  }
+  .input-group {
+    display: block;
+  }
+
+  .input-group > .form-control, .input-group > .form-floating, .input-group > .form-select {
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .sent-massage{
+    background: #F8F8F8;
+    padding: 30px;
+    h3{
+        font-family: "Manrope";
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+color: #142653;
+margin-bottom: 30px;
+
+    }
+  }
+  .form-label {
+    margin-bottom: 1rem;
+  }

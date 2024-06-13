@@ -1,0 +1,54 @@
+.most-expleore{
+    padding: 80px 0;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color:none;
+    outline: 0;
+    box-shadow:none;
+  }
+  .accordion-button:not(.collapsed) {
+    color:none;
+    background-color:none;
+    box-shadow: none;
+  }
+
+  .accordion-button::after {
+    background-image: url(./../img/about/plus-icon.png);
+    content: "";
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url(./../img/about/minus-icon.png);
+    content: "";
+  
+  }
+  .most-expleore-accordion{
+    button{
+        font-family: "DM Sans";
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #3A94F4;
+span{
+    color: #000000;
+    padding: 0 10px;
+}
+    }
+  }
+
+  .accordion-item {
+    border:none;
+  }
+  .accordion-item{
+    border-bottom: 1px solid;
+  }
+
+  .accordion-body{
+    font-family: "DM Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #9B9B9B;
+  }

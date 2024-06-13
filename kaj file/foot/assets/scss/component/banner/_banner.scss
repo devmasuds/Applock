@@ -1,0 +1,127 @@
+.banner-text{
+    padding-top: 100px;
+}
+.banner-photo-section{
+    padding-top: 25px;
+}
+.banner-text-photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text{
+    h3{
+        color: #000;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 182.5%; 
+display: flex;
+
+height: 47px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+    }
+    h6{
+        padding-top: 30px;
+        color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%; 
+    }
+}
+.banner-btn-gorup{
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    padding-top: 20px;
+}
+.btn-item{
+    
+input{
+    width: 377px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #FFF;
+box-shadow: none;
+}
+}
+
+.doop-down{
+
+padding: 13px 25px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #FFF;
+}
+.btnu-section{
+padding: 10px 15px;
+border-radius: 6px;
+border: 2px solid #FFF;
+background: #F88808;
+button{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 152.5%;
+}
+i{
+    padding: 0 5px;
+}
+}
+
+.banner-photo-sections{
+    padding-top: 143px;
+}
+.burger-xpress{
+    z-index: 2;
+}
+  .about-head-text{
+      color: #000;
+  -webkit-font-feature-settings: "liga" off;
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 182.5%;
+    }
+
+
+    .top-bottom{
+        position: fixed;
+        height: 50px;
+        width: 50px;
+        bottom: 10px;
+        right: 10px;
+        opacity: 0;
+        transition: all .5s;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+        &.active{
+            bottom: 60px;
+            right: 60px;
+            opacity: 1;
+            z-index: 100;
+            pointer-events: auto;
+            transition: all auto;
+        }
+    }
+ 
+    .html{
+        scroll-behavior: all smooth;
+    }

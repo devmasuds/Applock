@@ -1,0 +1,181 @@
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .banner-text h1 {
+        font-size: 72px;
+      }
+      .banner-menu-pofaile ul li {
+        padding: 20px 26px;
+      }
+      .banner-menu-pofaile ul {
+        padding: 40px;
+      }
+      .banner-menu-pofaile {
+        max-width: 961px;
+      }
+      .experienc-doctor {
+        padding: 35px;
+      }
+      .about-menu ul {
+        gap: 37px;
+      }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    .banner-text h4 {
+        font-size: 32px;
+      }
+      .banner-menu-pofaile {
+        max-width: 846px;
+      }
+      .banner-text h1 {
+        font-size: 60px;
+      }
+      .about-menu ul {
+        gap: 37px;
+      }
+      .about-menu ul li {
+        padding: 27px;
+      }
+      .reserve-text h3 {
+        font-size: 27px;
+        line-height: 36px;
+      }
+      .reserve-text p {
+        padding-top: 20px;
+        font-size: 14px;
+      }
+      .experienc-doctor {
+        padding: 16px;
+      }
+      .our-department {
+        padding: 80px 0;
+      }
+      .consul-tation {
+        padding: 56px;
+      }
+      .patiente-text h2 {
+        font-size: 36px;
+      }
+      .patiente-text p {
+        font-size: 16px;
+      }
+      .patiente-menu {
+        padding: 44px;
+      }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .banner-play {
+        padding-bottom: 30px;
+      }
+      .banner-text h4 {
+        font-size: 36px;
+ }
+ .banner-text h1 {
+    font-size: 80px;
+}
+.banner-menu-pofaile {
+    max-width: 625px;
+  }
+  .banner-menu-pofaile ul li {
+    padding: 20px 15px;
+  }
+  .about-menu ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .about-menu ul li {
+    padding: 40px;
+  }
+  .about-head-text h4 {
+    font-size: 32px;
+  }
+  .reserve-menu {
+    grid-template-columns: repeat(1, auto);
+  }
+  .reserve-text h3 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .reserve-text p {
+    font-size: 16px;
+  }
+  .ment-menu p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .our-department {
+    padding: 50px 0;
+  }
+  .doctor-text {
+    padding-top: 50px;
+  }
+  .swiper {
+    padding-top: 30px;
+  }
+  .experienc-doctor {
+    padding: 63px;
+  }
+  .ment-menus h3 {
+    font-size: 15px;
+  }
+  .consul-tation {
+    padding: 20px;
+  }
+  .patiente-text h2 {
+    font-size: 28px;
+  }
+  .patiente-text p {
+    font-size: 12px;
+  }
+  .patiente-btn a {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+  .menu-opner{
+    display: block;
+    cursor: pointer;
+    padding: 0 10px;
+    a{
+        color: #000;
+    }
+
+    .menu-opner-list{
+        display: block;
+    }
+ }
+ .header-taxt ,.header-profile{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    padding: 20px;
+    transition: .3s;
+    background-color: #d5cece;
+    color: #000;
+    z-index: 1;
+    ul{
+        display: block;
+        align-items: center;
+       padding: 50px 0;
+       li{
+        padding:5px 0;
+       }
+
+    }
+    &.active{
+        left: 0;
+      
+
+    }
+}
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+ }
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    
+ }

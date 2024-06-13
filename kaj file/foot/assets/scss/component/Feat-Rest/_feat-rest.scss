@@ -1,0 +1,169 @@
+.featured-restatur{
+    background: #F5F5F5;
+}
+
+.restat-icon{
+    img{
+        width: 30px;
+height: 8px;
+flex-shrink: 0;
+margin:10px;
+    }
+}
+.featured-restatur{
+    padding: 100px;
+}
+.fetured-text{
+    p{
+        padding-top: 20px;
+    }
+}
+.foot-menu-list{
+    padding-top: 50px;
+}
+.card-time-ster{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    border: none;
+  
+}
+.card-body{
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+background: #ffffff;
+border: 1px solid #2825250c ;
+}
+.card-title{
+    
+        color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    
+}
+.card-text{
+    color: #474747;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%; 
+i{
+    padding:0px 10px;
+}
+}
+.card-time-ster{
+    span{
+        color: #474747;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%;
+i{
+    padding: 0 10px;
+}
+    }
+    h6{
+        color: #1A1A1A;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%; 
+i{
+    padding: 0 5px;
+}
+    }
+}
+.card{
+    position: relative;
+    h5{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 65px;
+height: 34px;
+flex-shrink: 0;
+border-radius: 100px;
+background: #DA1717;
+color: #FFF;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 182.5%;
+text-align: center;
+    }
+    .cord-model{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 108px;
+height: 34px;
+flex-shrink: 0;
+border-radius: 100px;
+background: #F88808;
+color: #FFF;
+font-family: Barlow;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%;
+text-align: center;
+padding: 2px 0;;
+    }
+}
+.card-istail{
+    width: 4px;
+height: 19px;
+flex-shrink: 0;
+border-radius: 0px 2px 2px 0px;
+background: #F88808;
+}
+.card-body{
+    position: relative;
+    .card-istail{
+        position: absolute;
+        top: 39px;
+        left: 0;
+        width: 4px;
+    height: 19px;
+    flex-shrink: 0;
+    border-radius: 0px 2px 2px 0px;
+    background: #F88808;
+    }
+}
+
+.view-restt{
+    padding-top: 40px;
+    button{
+        width: 265px;
+        height: 67px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #F88808;
+        color: #F88808;
+        background: none;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%;
+i{
+    padding: 0 10px;
+}
+    }
+
+
+}
+.view-restt:hover button{
+    background:#F88808;
+    color: #FFF;
+}

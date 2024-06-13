@@ -1,0 +1,57 @@
+.works-menu-item{
+    img{
+        max-width:50%;
+        height: 50%;
+        border-radius: 50%;
+        margin-bottom: 30px;
+    }
+    h4{
+        margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 20px;
+    }
+    span{
+        font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #575f676d;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    P{
+        line-height: 1.7;
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 10px;
+    }
+}
+.our-work{
+    padding: 80px 0;
+    h1{
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+        font-size: 48px;
+        padding-bottom: 50px;
+    }
+}
+.john-roster{
+ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 130px;
+    font-size: 22px;
+    li{
+        background: #2b2b2b;
+        padding: 5px 10px ;
+        border-radius:50%;
+    }
+}
+}

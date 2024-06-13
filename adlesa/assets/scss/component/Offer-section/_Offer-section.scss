@@ -1,0 +1,149 @@
+.offer-flgs{
+    padding: 80px 0;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(14,2fr);
+        gap: 10px;
+        li{
+            border: 1px solid black;
+            border-radius: 5px;
+            h6{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 15px;
+                    height: 15px;
+                    margin: 0 3px;
+                }
+            }
+        }
+
+    }
+    button{
+        background-color: #1351D8;
+        padding: 10px 30px;
+        color: white;
+        margin-top: 40px;
+    }
+}
+
+.Fonbet-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e4e2e21e;
+    padding: 5px;
+
+}
+.fonbet-flg-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        height: 70px;
+        width: 70px;
+        
+    }
+    h6{
+        font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.86px;
+
+        padding: 0 15px;
+    }
+}
+.fonbet-cgp-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    img{
+        height: 32px;
+        width: 32px;
+    }
+    h5{
+        font-family: "Manrope";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+
+    }
+    span{
+        font-family: "Manrope";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+    }
+    button{
+        background-color: #1351D8;
+        color: white;
+        padding: 5px 30px;
+        font-family: "Manrope";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+    }
+
+}
+
+.fonbet-cgp-btn:hover button{
+    border: 1px solid #1351D8;
+    color: #1351D8;
+}
+.flg-text-menu{
+    margin-top: 40px;
+    ul{
+        li{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+.flg-menuitem{
+    margin-bottom: 80px;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+    }
+    h3{
+        font-family: Manrope;
+font-size: 24px;
+font-weight: 300;
+line-height: 32.78px;
+text-align: center;
+padding: 50px;
+span{
+    font-family: Manrope;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.78px;
+text-align: center;
+color: #1351D8;
+}
+
+    }
+}
+.poker-text{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    img{
+        height: 82px;
+        width: 82px;
+    }
+    h6{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.86px;
+        text-align: left;
+
+    }
+}

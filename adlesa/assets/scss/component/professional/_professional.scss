@@ -1,0 +1,106 @@
+.our-professional-section{
+    padding: 100px 0;
+}
+.our-professional-text{
+    h5{
+        font-family: "Manrope";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        color: #1351D8;
+        margin-bottom: 17px;
+
+    }
+    h2{
+        font-family: "Manrope";
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        margin-bottom: 55px;
+        color: #1A346D;
+
+    }
+}
+
+.professional-menu-profile{
+    ul{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        gap: 20px;
+        object-fit : cover;
+        li{
+            border: 1px solid #1351D814;
+            box-shadow: 0px 4px 24px 0px #EBEBEB40;
+            padding: 30px 42px;
+            a{
+                img{
+                    height: 160px;
+                    width: 160px;
+                    padding:15px;
+                    border-radius: 50px;
+                    margin-bottom: 24px;
+                }
+                h6{
+                    font-family: Manrope;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #1A346D;
+                    margin-bottom: 16px;
+
+                }
+                span{
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #31446C;
+                }
+            }
+        }
+    }
+}
+
+.ready-towork{
+    padding: 48px;
+    h2{
+        font-family: "Manrope";
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 56px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    p{
+        font-family: "Manrope";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    button{
+        padding: 15px 30px;
+        background: #ffffff;
+        color: #000;
+        font-family: "Manrope";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        transition: .3s;
+    }
+}
+.ready-work{
+    background: var(--Primery, #1351D8);
+
+}
+
+.ready-towork:hover button{
+    border:1px solid #ffffff;
+    color: #FFFFFF;
+}

@@ -1,0 +1,11 @@
+.adertisers-section{
+    padding: 80px 0;
+}
+.accordion-button::after{
+    background-image: url(./../img/about/plus-icon.png);
+    transition: none;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(./../img/about/minus-icon.png);
+    transition: none;
+}

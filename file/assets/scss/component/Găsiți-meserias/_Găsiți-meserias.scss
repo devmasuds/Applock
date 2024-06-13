@@ -1,0 +1,42 @@
+.Găsiți-meserias{
+    padding: 70px 0;
+    
+}
+
+.gasiti-meseri-text{
+    h4{
+font-family: "Archivo";
+font-size: 25px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+color: #090615;
+margin-bottom: 30px;
+
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(12,2fr);
+        li{
+            margin-bottom: 30px;
+            a{
+font-family: "DM Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #6B677A;
+
+            }
+        }
+    }
+}
+
+.gasiti-profe{
+    border: 1px solid #090615 ;
+    padding: 16px 32px;
+    margin-bottom: 50px;
+    i{
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,474 @@
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+    .search-email input {
+        padding: 8px 180px 10px 17px;
+      }
+      .header-menu-list ul li a {
+        font-size: 14px;
+      }
+      .banner-text h3 {
+        font-size: 45px;
+      }
+      .regular-text p {
+        font-size: 16px;
+        width: 384px;
+      }
+      .regular-text h3 {
+        font-size: 30px;
+      }
+      .regular-text ul li {
+        font-size: 22px;
+      }
+      .regular-text ul li i {
+        font-size: 18px;
+      }
+      .whowe-text p {
+        font-size: 17px;
+        width: 550px;
+      }
+      .card-list a {
+        top: 36%;
+        right: 15%;
+      }
+      
+      .banner-section .banner-img-bg {
+        right: 0%;
+      }
+      .vanner-sort-two {
+        top: 12%;
+          right: 6%;
+      }
+      .vanner-sort-two img {
+  height: 175px;
+}
+.vanner-sort-one {
+  right: 25%;
+}
+.card-list a img {
+  height: 40px;
+  width: 40px;
+}
+.card-list a {
+  top: 34%;
+    right: 14%;
+}
+}
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+  .header-menu-list ul {
+    gap: 13px;
+  }
+  .search-email input {
+    padding: 8px 85px 10px 17px;
+  }
+  .header-menu-list ul li a {
+    font-size: 12px;
+  }
+  .header-menu-list ul li button {
+    font-size: 12px;
+  }
+  .header-menu-list ul li a button {
+    padding: 7px 15px;
+    font-size: 13px;
+  }
+  .banner-text h3 {
+    font-size: 37px;
+  }
+  .menu-text h4 {
+    font-size: 24px;
+  }
+  .menu-text p {
+    font-size: 18px;
+  }
+  .whowe-text p {
+    font-size: 17px;
+    width: 400px;
+  }
+  .our-card-menu ul {
+    grid-template-columns: repeat(3, auto);
+  }
+  .leran-from-text {
+    padding-top: 70px;
+  }
+  .latest-pofail ul {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .maan-footer p {
+    font-size: 15px;
+  }
+  .quick-link ul li a {
+    font-size: 17px;
+  }
+  .company-menu ul li a {
+    font-size: 17px;
+  }
+  .maan-footer ul li {
+    font-size: 20px;
+  }
+  .footer-icon h6 i {
+    padding: 0px 6px;
+  }
+  .leran-from-text {
+    padding-top: 65px;
+  }
+  .haring-text-menu {
+  padding-top: 15px;
+  height: 219px;
+  width: 775px;
+}
+.haring-img {
+  padding-top: 36px;
+}
+.card-list a {
+  top: 37%;
+    right: 15%;
+}
+
+}
+  
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+  .banner-section{
+    img{
+      display: none;
+    }
+  }
+  .about-menu-text {
+    padding: 21px 0;
+  }
+  .regular-text h3 {
+    font-size: 26px;
+  }
+  .regular-text p {
+    font-size: 13px;
+    width: 289px;
+  }
+  .regular-text ul li {
+    font-size: 19px;
+  }
+  .whowe-text h2 {
+    font-size: 30px;
+  }
+  .whowe-text p {
+    font-size: 11px;
+    width: 332px;
+  }
+ .menu-opner{
+    display: block;
+    cursor: pointer;
+    padding: 0 10px;
+    a{
+        color: #000;
+    }
+
+    .menu-opner-list{
+        display: block;
+    }
+ }
+ .serc-menu-list{
+  display: block;
+    position: fixed;
+    left: 100%;
+    top: 0;
+    padding: 20px;
+    transition: .3s;
+    background-color: #fff;
+    color: #000;
+    z-index: 1;
+    &.active{
+        left: 0;
+      
+
+    }
+
+  
+ }
+ .header-serc {
+ align-items: start;
+ justify-content: start;
+  flex-direction: column;
+}
+ .header-menu-list{
+    ul{
+        display: inline-block;
+    
+
+       
+    }
+ 
+ }
+ .search-email input {
+    padding: 0px 119px 4px 15px;
+  }
+  .header-menu-list ul li button {
+    font-size: 17px;
+  }
+  .header-menu-list ul li a {
+    font-size: 17px;
+    line-height: 2.5;
+  }
+  .header-menu-list ul li button i {
+    font-size: 22px;
+  }
+  .header-menu-list ul li a button {
+    padding: 7px 32px;
+    font-size: 15px;
+  }
+  .search-email input {
+    padding: 8px 119px 13px 15px;
+  }
+  .header-menu {
+
+    padding: 10px;
+  }
+  .our-card-menu ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .latest-pofail ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .footer-section {
+    margin-top: -113px;
+  }
+  .card-list a {
+    top: 40%;
+    right: 13.5%;
+  }
+  .card-list a img {
+    height: 50px;
+    width: 50px;
+  }
+  .haring-text-menu {
+    padding-top: 15px;
+    height: 213px;
+    width: 727px;
+  }
+  .quick-link h3 {
+    font-size: 20px;
+  }
+  .quick-link ul li a {
+    font-size: 15px;
+  }
+  .company-menu ul li {
+    margin-bottom: 12px;
+  }
+  .company-menu ul li a {
+    font-size: 15px;
+  }
+  .maan-footer p {
+    font-size: 13px;
+  }
+  .maan-footer ul li {
+    font-size: 18px;
+    padding: 5px 9px;
+   
+  }
+  .maan-footer ul li a {
+    padding: .1rem !important;
+  }
+  .company-menu h3 {
+    font-size: 20px;
+
+  
+  }
+  .news-letter h3 {
+  font-size: 20px;
+}
+.footer-icon h6 i {
+  color: red;
+  padding: 0px 5px;
+  font-size: 15px;
+}
+.footer-icon h6 {
+  font-size: 9px;
+}
+.menu-colse{
+  display: block;
+}
+
+  }
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .regular-class {
+    display: block;
+  }
+  .regular-text h3 {
+    font-size: 40px;
+  }
+  .regular-text p {
+    font-size: 20px;
+    width: 540px;
+  }
+  .regular-text ul li {
+    font-size: 24px;
+  }
+  .regula-img{
+    order: 1;
+  }
+  .regular-text{
+    order: -1;
+  }
+  .whowe-img{
+    display: none;
+  }
+  .whowe-text{
+    padding: 50px;
+  }
+  .whowe-text h2 {
+    font-size: 50px;
+  }
+  .whowe-text p {
+    font-size: 20px;
+    width: 459px;
+  }
+  .card-list a img {
+    height: 40px;
+    width: 40px;
+  }
+  .card-list a {
+    top: 34.2%;
+    right: 14.1%;
+  }
+  .haring-img{
+    display: none;
+  }
+  .haring-text-menu {
+    width: 400px;
+  }
+  .our-text p {
+    font-size: 16px;
+  }
+  .latest-text p {
+    font-size: 14px;
+  }
+  .maan-footer p {
+    font-size: 17px;
+  }
+  .quick-link h3 {
+    font-size: 25px;
+  }
+  .company-menu h3 {
+    font-size: 25px;
+  }
+  .news-letter h3 {
+    font-size: 14
+  }
+  .news-letter p {
+    font-size: 12px;
+  }
+  .news-letter span {
+    font-size: 14px;
+  }
+  .quick-link ul li a {
+    font-size: 18px;
+  }
+  .quick-link ul li {
+    margin-bottom: 10px;
+  }
+  .company-menu ul li a {
+    font-size: 18px;
+  }
+  .company-menu ul li {
+    margin-bottom: 10px;
+  }
+  .footer-icon h6 {
+    font-size: 18px;
+  }
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+  .top-bottom.active {
+    bottom: 40px;
+    right: 40px;
+  }
+  .footer-icon h6 {
+    font-size: 16px;
+  }
+  .whowe-text {
+    padding: 20px;
+  }
+  .store-play img {
+    height: 49px;
+    width: 142px;
+  }
+  .regular-text p {
+    font-size: 19px;
+    width: 391px;
+  }
+  .regular-text ul li {
+    font-size: 22px;
+  }
+  .whowe-text p {
+    font-size: 18px;
+    width: 325px;
+  }
+  .our-card-menu ul {
+    grid-template-columns: repeat(1, auto);
+  }
+  .card-list a {
+    top: 50.2%;
+    right: 15.1%;
+  }
+  .card-list a img {
+    height: 60px;
+    width: 60px;
+  }
+  .card-list a img {
+    height: 50px;
+    width: 50px;
+  }
+  .card-list a {
+    top: 45.2%;
+    right: 15.1%;
+  }
+  .leran-from-text p {
+    font-size: 15px;
+  }
+  .leran-from-text h3 {
+    font-size: 37px;
+  }
+  .latest-text h3 {
+    font-size: 35px;
+  }
+  .latest-text p {
+    font-size: 12px;
+  }
+  .latest-pofail ul {
+    grid-template-columns: repeat(1, auto);
+  }
+  .larest-item a h4 {
+    font-size: 20px;
+  }
+  .larest-item h6 {
+    font-size: 16px;
+  }
+  .haring-text-menu {
+    width: 300px;
+  }
+  .haring-text h4 {
+    font-size: 24px;
+  }
+  .menu-text h4 {
+    font-size: 22px;
+  }
+  .menu-text p {
+    font-size: 17px;
+  }
+  .banner-text h3 {
+    font-size: 40px;
+  }
+  .banner-text p {
+    font-size: 20px;
+  }
+  .whowe-text h2 {
+    font-size: 44px;
+  }
+  .banner-text {
+    padding: 60.7px 0px;
+  }
+}
+

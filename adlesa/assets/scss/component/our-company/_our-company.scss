@@ -1,0 +1,90 @@
+.masud{
+    position: relative;
+
+}
+.img-path{
+    position: absolute;
+    bottom: -40px;
+    right: -20px;
+    width: 335px;
+    height: 282px;
+    
+}
+.our-company{
+    padding: 100px 0;
+    background-color: #F8F8F8;
+}
+
+.company-text{
+    padding: 0 0px 0px 50px;
+    h5{
+        font-family: "Manrope";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.13em;
+        text-align: left;
+        color: #1351D8;
+        margin-bottom: 40px;
+    }
+    h1{
+        font-family: "Manrope";
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        text-align: left;
+        margin-bottom: 25px;
+        color: #31446C;
+    }
+    h4{
+        font-family: "Manrope";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 25px;
+        color: #31446C;
+    }
+    P{
+        font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #31446C;
+
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li{
+            h5{
+                font-family: "Manrope";
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: left;
+                color: #31446C;
+                i{
+                    padding: 0 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    a{
+        padding: 12px 24px 12px 24px;
+        background: #1351D8;
+        color: white;
+        transition: .3s;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+
+
+    }
+}
+.company-text a:hover{
+    border: 1px solid #1351D8;
+}

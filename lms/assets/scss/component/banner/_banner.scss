@@ -1,0 +1,120 @@
+.banner-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.banner-text{
+    h3{
+        font-size: 52px;
+        font-weight: 900;
+        font-family: serif;
+        margin-bottom: 20px;
+        line-height: normal;
+        span{
+            color: red;
+        }
+    }
+    p{
+        font-size:20px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 20px; 
+    }
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    button{
+        border: 1px solid #df2424;
+        font-size: 20px;
+        font-family: serif;
+        color: red;
+    }
+    a{
+        i{
+            font-size: 35px;
+            padding-left: 5px;
+        }
+    }
+}
+.banner-section{
+    background-color: #fcf0e0;
+    padding-bottom: 50px;
+}
+
+
+
+.about-menu-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+
+}
+.menu-text{
+    h4{
+        font-size:30px;
+        font-weight: 500;
+        font-family: serif;
+        margin-bottom: 20px; 
+    }
+    p{
+        font-size:20px;
+        font-weight: 100;
+        font-family: serif;
+    }
+}
+.banner-btn button:hover{
+    background-color: red;
+    color: white;
+}
+
+.menu-img{
+    img{
+        height: 120px;
+        width: 120px;
+    }
+}
+.banner-section{
+    position: relative;
+
+    .banner-img-bg{
+        position: absolute;
+        top: 0;
+        right: 0%;
+        max-width: 647px;
+        height: 531px;
+      
+        
+    }
+}
+.banner-text {
+    padding: 100px 0px;
+  }
+
+
+  .vanner-sort-one{
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    img{
+        height: 330px;
+        border-radius: 50%;
+        border: 5px solid rgb(227, 227, 227);
+    }
+  }
+  .vanner-sort-two{
+    position: absolute;
+    top: 13%;
+    right: 4%;
+    img{
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid rgb(255, 255, 255);
+    }
+}
+.menu-colse{
+    display: none;
+}

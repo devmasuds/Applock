@@ -1,0 +1,139 @@
+.tuau-bgcolor{
+    background-color: black;
+    height: 482px;
+    max-width: 473px;
+    border-radius: 50%;
+
+}
+.tuaudi-menu{
+    position: relative;
+}
+.pregun-mans{
+    img{
+        height: 572px;
+        max-width: 521px;
+        margin-top: -463px;
+  position: relative;
+  margin-left: 248px;
+    }
+}
+.preguntas-img img {
+    margin-left: 40px;
+    max-width: 418px;
+    height: 400px;
+    margin-top: 0px;
+  }
+  .preguntass-img {
+    position: relative;
+  }
+  .preg-sectin11 {
+    position: absolute;
+    bottom: 1px;
+    right: 347px;
+    z-index: 11;
+  }
+  .preg-sectin22 {
+    position: absolute;
+    bottom: 234px;
+    right: 482px;
+    z-index: 11;
+  }
+  .preg-sectin33 {
+    position: absolute;
+    bottom: 446px;
+    right: 218px;
+    z-index: 11;
+  }
+  .preg-sectin11 ,.preg-sectin22,.preg-sectin33{
+    font-size: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px 17px;
+  color: red;
+
+  }
+
+  .tuaudi-text{
+    padding: 70px ;
+    h3{
+font-family: 'Arial Black';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 65px;
+color: #FFFFFF;
+margin-bottom: 50px;
+
+
+    }
+    p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #FFFFFF;
+
+
+    }
+  }
+  .tuaudi-section{
+    background-color: #502274;
+  }
+
+
+
+
+
+  .traffic-section{
+    background-color: #FAF9F5;
+    margin-top: -229px;
+    
+}
+.traffic-wrapper{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 50px;
+    padding-top: 300px;
+    padding-left: 100px;
+    position: relative;
+    padding-bottom: 80px;
+}
+.traffic-img{
+    margin-top: 200px;
+    z-index: 99;
+    min-height: 573px;
+    max-width: 637px;
+}
+.line-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.traffic-text{
+    padding-top: 100px;
+    h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: -1.12px;
+
+        color: #502274;
+        margin-bottom: 30px;
+
+
+    }
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+
+
+        color: #000;
+        text-align: justify;
+    }
+}

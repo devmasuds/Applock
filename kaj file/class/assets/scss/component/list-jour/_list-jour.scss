@@ -1,0 +1,92 @@
+.avenir-menu{
+ul{
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+    gap:50px 100px;
+    text-align: center;
+}
+}
+.menu-list{
+h4{
+    font: normal normal 800 20px/25px Unbounded;
+letter-spacing: 0px;
+padding-top: 8px;
+}
+p{
+    font: normal normal 600 15px/19px Unbounded;
+letter-spacing: 0px;
+padding-top: 5px;
+}
+}
+.menu-list{
+    border: 1px solid #FFF05C;
+border-radius: 9px;
+padding: 0 30px;
+color: #fff;
+transition: all .5s;
+}
+
+.menu-list:hover{
+    background: #FFF05C 0% 0% no-repeat padding-box;
+    color: #A26FD2;
+}
+.avenir-section{
+    background-image: url('./../img/list-jour/00.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.list-img{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+
+
+.avenir-menu-item{
+    border: 1px solid #FFFFFF;
+border-radius: 9px;
+font: normal normal 600 30px/37px Unbounded;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+.avenir-menu-item:hover{
+    background: #FFF05C 0% 0% no-repeat padding-box;
+    color: #A26FD2;
+
+}
+.aven-item{
+    background: #FFF05C 0% 0% no-repeat padding-box;
+border-radius: 9px;
+h4{
+    text-align: left;
+font: normal normal 800 15px/19px Unbounded;
+letter-spacing: 0px;
+color: #9566D1;
+text-transform: uppercase;
+padding: 5px 10px;
+}
+}
+
+.aven-footer-text{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 30px;
+h5{
+    font: normal normal 600 17px/21px Unbounded;
+letter-spacing: 0px;
+color: #9566D1;
+background: #6CCFEE 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 0px #9566D1;
+border: 2px solid #9566D1;
+border-radius: 9px;
+padding: 10px 30px;
+
+
+}
+}

@@ -1,0 +1,61 @@
+.banner-section{
+    background: linear-gradient(2.66deg, #27132B 2.12%, #9640DA 106.71%);
+}
+.banner-text{
+    padding: 150px 0px;
+    h2{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 70px;
+color: #FFFFFF;
+margin-bottom: 30px;
+
+    }
+    p{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+margin-bottom: 40px;
+
+    }
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    input{
+        max-width: 300px;
+        font-family: 'Arial Black';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 24px;
+    }
+    a{
+        box-sizing: border-box;
+background: #FF8A2D;
+border-radius: 10000px;
+        padding: 7px 20px;
+
+font-family: 'Arial Black';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 24px;
+color: white;
+
+    }
+}
+.banner-img{
+    padding-top: 150px;
+    img{
+        margin-bottom: -100px;
+    }
+}

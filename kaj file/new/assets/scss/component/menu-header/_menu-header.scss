@@ -1,0 +1,41 @@
+.menu-text{
+    font-size: 2rem;
+    font-weight: 500;
+  line-height: 1.2;
+  span{
+    color: #32dbc6;
+    font-size: 45px;
+  }
+}
+.menu-list-item{
+    padding-left: 547px;
+    padding-top: 24px;
+  ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  li{
+    a{
+        color: #4d4d4d;
+    }
+  }
+  }
+}
+.menu-list-item ul li :hover  {
+    color: #32dbc6;
+    transition: all .3s;
+
+}
+.menu-header-section{
+    background-color: #ffff;
+    padding: 10px;
+}
+.fixed{
+  position: fixed;
+  top:0;
+   left:0;
+  width: 100%;
+  background-color: #fff;
+  transition: .5s;
+  z-index: 2;
+}

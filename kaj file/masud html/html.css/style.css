@@ -1,0 +1,88 @@
+*{
+    margin: none;
+    padding: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 50px;
+}
+ul{
+    list-style: none;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    mix-blend-mode: 20px;
+}
+#header-logo{
+    max-width: 10px;
+}
+.time-contact{
+    display: flex;
+    align-items: center;
+    margin: center;
+    gap: 50px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.time-zone ul li a{
+    justify-content: center;
+    align-items: center;
+    max-width: 10px;
+    min-width: 10px;
+}
+.main-manu ul li a {
+    height: 40px;
+    width: 40px;
+    background: rgb(112, 44, 222);
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%
+    
+}
+.main-manu ul li{
+    padding: 5px;
+    color: #cec9c9;
+    margin: 0px;
+    display: inline-block;
+    margin: 0 0px;
+}
+.main-manu li a:hover{
+    color: rgb(226, 8, 8);
+}
+.time-zone li{
+    padding: 40-90px;
+    align-items: center;
+    
+}
+.time-zone li a:hover{
+    color: red;
+    
+}
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    margin: 100px;
+    border: 100px dashed red;
+    border-radius: 50%;
+    display: flex;
+    padding: center;
+    margin: center;
+    align-items: center;
+}
+body .box{
+    display: flex;
+    align-items: 50%;
+    justify-content:center ;
+    height: 500px;
+}

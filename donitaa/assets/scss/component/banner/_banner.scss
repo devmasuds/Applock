@@ -1,0 +1,134 @@
+.shoping-menu{
+    background-color: #ffffff;
+    padding: 25px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(56, 76, 137, 0.4);
+border-radius: 20px;
+transition: .3s;
+&:hover{
+    background: linear-gradient(114.82deg, #6C82C6 0%, #384C89 100%);
+    color: white;
+    .shoping-item{
+        h6{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+
+    }
+    .more-info, .more-info2, .more-info3, .more-info4{
+            background: #fffdfd79;
+        color: #ffffff;
+    }
+}
+
+
+}
+
+
+.shop-item-list{
+    padding: 30px 26px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+}
+.ship-ater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shoping-item{
+    h6{
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #060505;
+margin-bottom: 10px;
+
+    }
+    h3{
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #151313;
+margin-bottom: 20px;
+
+
+    }
+}
+.donit-bground{
+    background-color: #e6e2e26c;
+}
+.shoping-shop{
+    i{
+        font-size: 25px;
+        background-color: #42874630;
+        padding: 15px;
+        border-radius: 50px;
+    }
+}
+.shoping-shop1{
+    i{
+        font-size: 25px;
+        background-color: #60505043;
+        padding: 15px;
+        border-radius: 50px;
+    }
+}
+.shoping-shop2{
+    i{
+        font-size: 25px;
+        background-color: #78474730;
+        padding: 15px;
+        border-radius: 50px;
+    }
+}
+.shoping-shop3{
+    i{
+        font-size: 25px;
+        background-color: #d9d9d96f;
+        padding: 15px;
+        border-radius: 50px;
+    }
+}
+.more-info{
+    background-color: #16b27c5b;
+    padding: 10px 45px;
+    border-radius: 20px;
+    color: rgb(88, 126, 68);
+    i{
+        padding: 0 10px;
+    }
+}
+.more-info2{
+    background-color: #ab38385b;
+    padding: 10px 41px;
+    border-radius: 20px;
+    color: rgb(174, 69, 69);
+    i{
+        padding: 0 10px;
+    }
+}
+.more-info3{
+    background-color: #100c0c5b;
+    padding: 10px 41px;
+    border-radius: 20px;
+    color: rgb(21, 18, 18);
+    i{
+        padding: 0 10px;
+    }
+}
+.more-info4{
+    background-color: #1413135b;
+    padding: 10px 41px;
+    border-radius: 20px;
+    color: white;
+    i{
+        padding: 0 10px;
+    }
+}

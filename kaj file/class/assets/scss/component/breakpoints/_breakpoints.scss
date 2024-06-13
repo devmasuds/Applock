@@ -1,0 +1,396 @@
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+  .banner-menu {
+    position: absolute;
+    top: 40%;
+    left: 14%;
+  }
+  .header-img img {
+
+    width: 168px;
+    height: 84px;
+
+  }
+  .header-menu ul li button {
+    width: 125px;
+    height: 46px;
+}
+.header-menu ul {
+  gap: 14px;
+}
+.header-icon ul li {
+
+  width: 41px;
+  height: 41px;
+  padding: 5px;
+}
+
+.about-head-text hr {
+  margin-left: 483px;
+}
+
+.arpass-menu-list p {
+  font: normal normal normal 12px/17px Unbounded;
+}
+.moorea-menu {
+  grid-template-columns: repeat(4, auto);
+}
+.moort-item {
+  padding-left: 105px;
+}
+.retiw-item {
+  padding-left: 105px;
+}
+.footer-text {
+  padding-left: 158px;
+}
+.banner-menu {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+}
+}
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+  .header-img img {
+    width: 134px;
+    height: 66px;
+    padding-top: 10px;
+  }
+  .header-menu ul li a {
+    font-size: 10px;
+  }
+  .header-menu ul li button {
+    width: 111px;
+    height: 41px;
+    font-size: 13px;
+  }
+  .header-icon ul {
+    padding-top: 0px;
+  }
+  .banner-menu h1 {
+    font: normal normal 800 72px/114px Unbounded;
+  }
+  .banner-menu {
+    height: 340px;
+    width: 741px;
+  }
+  .about-head-text hr {
+    margin-left: 390px;
+  }
+  .about-text h3 {
+    font: normal normal 800 20px/31px Unbounded;
+  }
+  .about-text h5 {
+    font: normal normal 800 17px/25px Unbounded;
+  }
+  .about-footer-text h2 {
+    font: normal normal 800 26px/37px Unbounded;
+  }
+  .about-footer-text h2 span {
+    font: normal normal 800 26px/37px Unbounded;
+  }
+  .about-footer-text h3 {
+    font: normal normal 800 19px/31px Unbounded;
+  }
+  .about-footer-text h3 span {
+    font: normal normal 800 19px/31px Unbounded;
+  }
+  .about-footer-text h4 {
+    font: normal normal 800 17px/25px Unbounded;
+  }
+  .about-footer-text h4 span {
+    font: normal normal 800 17px/25px Unbounded;
+  }
+  .section-menu {
+    padding: 0px;
+  }
+  .sound-list-item ul li h3 {
+    font: normal normal 600 21px/31px Unbounded;
+  }
+  .sound-list-item ul li h1 {
+    font: normal normal 800 27px/34px Unbounded;
+  }
+  .nos-parten-section .swiper-button-prev {
+    left: 31px;
+    height: 42px;
+    width: 42px;
+  }
+  .nos-parten-section .swiper-button-next {
+    right: 41px;
+    height: 42px;
+    width: 42px;
+  }
+  .moort-item {
+    padding-left: 13px;
+  }
+  .retiw-item {
+    padding-left: 13px;
+    padding-top: 20px;
+  }
+  .footer-text {
+    padding-left: 51px;
+  }
+  .parten-btn h4 {
+    font: normal normal 600 14px/21px Unbounded;
+  }
+  .aven-footer-text h5 {
+    font: normal normal 600 14px/21px Unbounded;
+  }
+  .about-footer-text button {
+    font: normal normal 600 14px/21px Unbounded;
+  }
+  .about-head-text hr {
+    margin-left: 478px;
+  }
+  .sound-list-item ul li h1 {
+    font: normal normal 800 35px/47px Unbounded;
+  }
+  .banner-menu {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+  }
+  .about-head-text hr {
+    margin-left: 389px;
+  }
+  .banner-menu {
+    position: absolute;
+    top: 40%;
+    left: 13%;
+  }
+  .condown-item {
+    padding-top: 40px;
+  }
+  .banner-menu h1 {
+    font: normal normal 800 61px/94px Unbounded;
+  }
+  
+  .banner-menu {
+    height: 297px;
+    width: 571px;
+  }
+  .banner-menu {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+  }
+  .banner-menu h4 {
+    font: normal normal 600 17px/31px Unbounded;
+    color: white;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+}
+  
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+ .header-menu{
+  position: fixed;
+  background-color: moccasin;
+  color: #000;
+  top: 0;
+  left: -1200px;
+  display:block;
+  transition: .9s;
+  z-index: 9;
+  &.active{
+    left: 0;
+  }
+ }
+ 
+ .open-item-menu{
+  display: block;
+ }
+ .menu-opner{
+  display: block;
+  cursor: pointer;
+  padding-bottom: 20px;
+  z-index: 111;
+ }
+ .header-menu{
+  ul{
+    display: block;
+    li{
+      margin: 10px;
+      text-align: left;
+      a{
+        font-size: 14px;
+      }
+      button{
+        width: 177px;
+    height: 47px;
+    font-size: 15px;
+      }
+    }
+  }
+ 
+  .header-icon{
+    ul{
+      display: flex;
+      gap: 10px;
+    
+    
+    li{
+      text-align: center;
+    }
+  }
+}
+ 
+
+ }
+ .header-menu ul {
+  display: block;
+  gap: 10px;
+
+}
+ .about-head-text hr {
+  margin-left: 260px;
+}
+.about-text h3 {
+  font: normal normal 800 27px/31px Unbounded;
+}
+.about-text h5 {
+  font: normal normal 800 24px/57px Unbounded;
+}
+.banner-menu h1 {
+  font: normal normal 800 65px/114px Unbounded;
+}
+.banner-menu {
+  height: 340px;
+  width: 571px;
+}
+.banner-menu {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+}
+.banner-menu h4 {
+  font: normal normal 600 21px/31px Unbounded;
+}
+.arpss-menu-banner ul {
+  grid-template-columns: repeat(2, auto);
+}
+.sound-list-item {
+  margin-bottom: 29px;
+}
+.sound-list-item ul li h3 {
+  font: normal normal 600 21px/16px Unbounded;
+}
+.nos-parten-section .swiper-button-next {
+  right: 16px;
+
+}
+.moorea-menu {
+  grid-template-columns: repeat(3, auto);
+}
+.moort-item {
+  padding-left: 0px;
+}
+.retiw-item {
+  padding-left: 0px;
+}
+.footer-text {
+  padding-left: 42px;
+}
+.banner-menu h1 {
+  font: normal normal 800 40px/69px Unbounded;
+}
+.banner-menu {
+  position: absolute;
+  top: 23%;
+  left: 14%;
+}
+.banner-menu {
+  height: 224px;
+  width: 571px;
+}
+.banner-menu h4 {
+  font: normal normal 600 14px/31px Unbounded;
+
+  margin-bottom: 14px;
+  padding-top: 12px;
+}
+
+}
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .banner-menu h1 {
+    font: normal normal 800 50px/97px Unbounded;
+  }
+  .banner-menu {
+    height: 303px;
+    width: 456px;
+  }
+  .time {
+    font: normal normal 600 23px/45px Unbounded;
+  }
+  .label {
+    font: normal normal 600 17px/31px Unbounded;
+  }
+  .about-head-text hr {
+    margin-left: 186px;
+  }
+  .about-footer-text h2 {
+    font: normal normal 800 15px/37px Unbounded;
+  }
+
+  .about-footer-text h3 {
+    font: normal normal 800 9px/31px Unbounded;
+  }
+  .about-footer-text h4 {
+    font: normal normal 800 10px/25px Unbounded;
+  }
+  .avenir-menu ul {
+    gap: 35px 17px;
+  }
+  .arpss-menu-banner ul {
+    grid-template-columns: repeat(1, auto);
+  }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+  .banner-menu h1 {
+    font: normal normal 800 40px/72px Unbounded;
+  }
+  .banner-menu {
+    height: 286px;
+    width: 359px;
+ 
+ }
+
+ .time {
+  font: normal normal 600 17px/45px Unbounded;
+}
+.label {
+  font: normal normal 600 20px/31px Unbounded;
+}
+.about-head-text hr {
+  margin-left: 140px;
+}
+.about-head-text h1 {
+  font: normal normal 800 27px/30px Unbounded;
+}
+.kavinsky-photo img {
+
+  height: 100px;
+}
+.moorea-menu {
+  grid-template-columns: repeat(2, auto);
+}
+.moorea-menu li {
+  font: normal normal 800 9px/1px Unbounded;
+}
+.moort-item li {
+  font: normal normal 800 8px/17px Unbounded;
+}
+.moort-item {
+  padding-left: 40px;
+}
+.retiw-item {
+  padding-left: 40px;
+}
+}
+

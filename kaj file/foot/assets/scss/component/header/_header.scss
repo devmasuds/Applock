@@ -1,0 +1,144 @@
+.header-banner{
+    background-image: url('./../img/banner/gg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4px;
+}
+.sticky-section{
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+   width: 100%;
+   transition: .9s;
+}
+
+
+.header-photo{
+   a{
+    img{
+        width: 214.91px;
+        height: 42px;
+        flex-shrink: 0;
+    }
+   }
+}
+.top-header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    .header-icon{
+        display: flex;
+        align-items: center;
+         gap: 60px;
+    }
+}
+.header-menu{
+    a{
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+       
+    }
+    .header-icon{
+        .head-shop{           
+                width: 23.926px;
+                height: 21.662px;
+                flex-shrink: 0;           
+        }
+        .head-btn{
+            width: 170px;
+            height: 54px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            border: 1px solid #F88808;
+            color: #F88808;
+            background: none;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            transition: .9s;
+            i{
+                padding: 0 10px;
+            }
+        }
+    }
+   
+    
+}
+.header-icon:hover .head-btn {
+    background: #F88808;
+    color: white;
+
+}
+.item-mlsd{
+    padding-left: 40px;
+    box-shadow: none;
+}
+.btn-item{
+    position: relative;
+    span{
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        width: 14.016px;
+height: 23.916px;
+flex-shrink: 0;
+color: #757575;
+    }
+    h6{
+        position: absolute;
+        top: -16px;
+        right: 20px;
+    }
+}.header-banners{
+    background-image: url('./../img/banner/ggg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-banners{
+    padding-top: 50px;
+    
+flex-shrink: 0;
+}
+
+.header-section{
+    background: #c8ca61;
+    
+}.banner-text
+.view-restt button{
+    transition: .5s;
+}
+.card-bodys .card-btns{
+    transition: .5s;
+}
+.btnu-section button{
+    transition: .5s;
+}
+.card-body button{
+    transition: .5s;
+}
+.manu-opner
+{
+  display: none;
+}
+
+
+.location{
+
+    iframe
+{
+  width: 100%;
+}
+}

@@ -1,0 +1,70 @@
+
+section{
+    overflow: hidden;
+  }
+  body{
+    font-family:serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-family: "Inter", sans-serif;
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap');
+  *{
+      margin: 0;padding: 0;
+      
+    }
+    ul,ol{
+      padding: 0;
+      list-style: none;
+    }
+    a{
+      text-decoration:none;
+      
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin: 0;
+      padding: 0;
+    }
+    img{width: 100%;
+    }
+    ul,li{
+      list-style: none;
+      padding: 0;
+    }
+    
+      
+    .top-bottom{
+      position: fixed;
+      right: 0px;
+      bottom: 0px;
+      background-color:#00A3FF;
+      color: white;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      opacity: 0;
+      pointer-events: none;
+      transition: .3s;
+      &.active{
+          opacity: 1;
+          pointer-events: auto;
+          z-index: 33;
+          bottom: 100px;
+          right: 100px;
+      }
+  }

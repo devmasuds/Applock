@@ -1,0 +1,176 @@
+
+
+.bargar-photo{
+    img{
+        width: 156px;
+        height: 139px;
+        flex-shrink: 0;
+    }
+}
+.bargar-text{
+    h3{
+        color: #1A1A1A;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%; 
+    }
+}
+.bargar-redio-menu{
+    display: flex;
+    align-items: center;
+   
+    gap: 20px;
+}
+.popular-about-section{
+    padding-top: 90px;
+}
+.bargar-text {
+    
+    h3{
+        padding-top: 16px;
+        padding-bottom: 15px;
+    }
+    h6{
+        padding-top: 15px;
+    }
+}
+.bargar-redio-menu{
+    padding-top:0px 15px;
+}
+.order-btn{
+    padding-top: 50px;
+    button{
+        width: 138px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #F88808;
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%; 
+    }
+}
+.bargar-redio-menu .form-check:hover{
+    color: #F88808;
+}
+
+.your-cesh-belench{
+    aspect-ratio: 1/1.5;
+    background: #F2F2F2;
+    padding: 30px;
+    h4{
+        color: #1A1A1A;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%; 
+    }
+    p{
+        color: #808080;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 182.5%; 
+    }
+    h5{
+        color: #1A1A1A;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%; 
+    }
+    a{
+        color: #DA1717;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%;
+    }
+    button{
+        width: 310px;
+height: 54px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 182.5%; 
+background: #F88808;
+    }
+}
+
+.deli-vari{
+    display: flex;
+    align-items: center;
+     gap: 20px;
+    h6{
+        color: #595252;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 182.5%;
+    }
+}
+.form-check-input:checked
+{
+  background-color: #F88808;
+  border-color: #fddd0d;
+  box-shadow: none;
+}
+.order-from{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h6{
+        color: #F88808;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%; 
+    }
+    .burgur-many{
+        span{
+            color: #595252;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 182.5%;
+        }
+        h5{
+            padding-left: 20px;
+            color: #1A1A1A;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%; 
+        }
+    }
+}
+
+.vart-many{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}

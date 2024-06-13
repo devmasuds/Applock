@@ -1,0 +1,136 @@
+.beneficios-section{
+    background-image: url("./../img/beneficios/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 111px 0 377px 0px;
+
+}
+.benefi-text{
+    h2{
+        color: #502274;
+        font-family: 'Arial Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
+
+.benefi-item{
+    img{
+        height: 55px;
+        width: 60px;
+        background-color: #fff;
+    }
+}
+
+.benefi-menu-item{
+    object-fit: cover;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        text-align: center;
+        gap: 45px;
+        object-fit: cover;
+        margin-bottom: 80px;
+        
+    }
+}
+
+.benefi-color1{
+    background: #D2E823;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+
+}
+.benefi-color2{
+    background: #00B69B;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+
+}
+.benefi-color3{
+    background: #FFBB25;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+}
+.benefi-color4{
+    background: #502274;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+}
+.benefi-color5{
+    background: #E9C0E9;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+}
+.benefi-color6{
+    background: #5088FF;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+}
+.benefi-color7{
+    background: #EA0234;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+}
+.benefi-color8{
+    background: #70764D;
+border: 2px solid #FFFFFF;
+box-shadow: 5px 5px 1px 1px #000000;
+border-radius: 24px;
+padding: 50px;
+
+}
+
+
+.benefi-item{
+    height: 200px;
+    img{
+         margin-bottom: 20px;
+    }
+    h4{
+         font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 32px;
+     color: #FFFFFF;
+     }
+     p{
+         font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+    font-size: 17.8594px;
+     line-height: 28px;
+     color: #FFFFFF;
+     padding: 10px;
+     }
+ }
+
+
+ .benefi-two-section{
+    margin-top: -50px;
+ }

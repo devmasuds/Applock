@@ -1,0 +1,52 @@
+.moorea-menu{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ li{
+    font: normal normal 800 18px/22px Unbounded;
+letter-spacing: 0px;
+color: #FFFFFF;
+    img{
+        height: 100px;
+        width: auto;
+    }
+ }
+}
+.moorea-menu-item{
+    padding: 100px 0;
+ 
+}
+.moorea-secton{
+    background: #000000a2;
+  
+}
+.footer-text{
+    padding-left: 300px;
+    background: #662cb1;
+    padding: 10px 0;
+    padding-left: 294px;
+    color: white;
+    font: normal normal 600 14px/17px Unbounded;
+    letter-spacing: 1px;
+}
+.moort-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    li{
+        font: normal normal 800 14px/17px Unbounded;
+letter-spacing: 0px;
+color: #FFFFFF;
+    }
+}
+.retiw-item{
+    h6{
+        font: normal normal 600 13px/17px Unbounded;
+        color: #FFFFFF; 
+    }
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

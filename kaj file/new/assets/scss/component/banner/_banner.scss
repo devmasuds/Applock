@@ -1,0 +1,83 @@
+.banner-text-section{
+  padding: 380px 0;
+   h1{
+    font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 57.6px;
+  padding-left: 286px;
+  margin-bottom: 20px;
+  
+   }
+h5{
+    padding-top: 10px;
+    padding-bottom: 55px;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    span{
+        color: #1da493;
+    }
+}
+a{
+    background-color: #32dbc6;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+}
+
+.banner-section{
+    background-image: url('./../img/banner/1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text-section h5 :hover{
+    color: #32dbc6;
+    transition:all .9s;
+}
+.banner-section.banner-text-section h6 :hover a{
+   background: red;
+}
+.manu-opner{
+    display: none;
+}
+
+.top-bottom{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color:#32dbc6;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    transition: all .5s;
+    pointer-events: none;
+    color: rgb(255, 255, 255);
+  border-radius: 50px;
+    &.active{
+        bottom: 100px;
+        opacity: 1;
+        pointer-events: auto;
+        z-index: 100;
+        transition: all .5s;
+    }
+}
+.html{
+    scroll-behavior: all smooth;
+}
+
+
+
+#preloader{
+    background: #fff url('./../assets/1.gif') no-repeat center center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}

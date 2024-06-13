@@ -1,0 +1,92 @@
+.Industries-section{
+    padding: 50px 0px;
+}
+
+.industries-head-text{
+    h6{
+        font-family: Manrope;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        color: #1351D8;
+        margin-bottom: 16px;
+
+    }
+    h2{
+        font-family: "Manrope";
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        text-transform: capitalize;
+        color: #1A346D;
+        margin-bottom: 24px;
+
+    }
+    p{
+        padding:0px 145px;
+    }
+}
+
+.industries-menu{
+    padding-top: 180px;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+        gap: 20px;
+        li{
+            height: 248px;
+            width: 274px;
+            clip-path: polygon(27% 1%, 70% 0, 100% 50%, 70% 100%, 28% 100%, 0 51%);
+            padding: 27px;
+            a{
+                
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 20px;
+                }
+            }
+            h6{
+                font-family: "Manrope";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                text-align: center;
+                color: #1A346D;
+                margin-bottom: 15px;
+            }
+            p{
+                font-family: "Manrope";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: center;
+                color: #1A346D;
+            }
+        }
+    }
+}
+
+.menu-indus1{
+    background-color: #EEF8FF;
+}
+.menu-indus2{
+    background-color: #FAEFFD;
+    margin-top: -130px;
+  margin-left: -65px;
+}
+.menu-indus3{
+    background-color: #E0FBEE;
+    margin-left: -73px;
+}
+.menu-indus4{
+    background-color: #FFDBE1;
+    margin-top: -130px;
+    margin-left: -65px;
+}
+.menu-indus5{
+    background-color: #DCEBFB;
+    margin-left: -73px;
+}

@@ -1,0 +1,125 @@
+.list-section{
+    height: 800px;
+}
+.list-resturant{
+    background-color: #453d3da4;
+    height: 511px;
+}
+.list-restu{
+    padding:100px 0px;
+    position: relative;
+    h3{
+        color: #FFF;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 182.5%; 
+        img{
+            width: 26px;
+            height: 6px;
+            flex-shrink: 0;
+           margin: 0 10px;
+        }
+    }
+    p{
+        padding-top: 30px;
+        color: #FFF;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 174%;
+    }
+    button{
+        margin-top: 50px;
+        width: 200px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #F88808;
+color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%; 
+      i{
+        padding: 0 10px;
+      }
+    }
+}
+.list-photo{
+    position: absolute;
+    top:100px;
+    right:0;
+
+}
+.list-icon-play{
+    position: absolute;
+    top: 140px;
+    right: 40px;
+i{
+   font-size: 60px;
+   color: #F88808;
+
+}
+}
+.restaurent-listed{
+    margin-left: 56px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.resta-icon{
+    img{
+        width: 78px;
+height: 78px;
+flex-shrink: 0;
+    }
+}
+.resta-text{
+    h1{
+        color: #1A1A1A;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+span{
+    font-feature-settings: 'liga' off;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F88808;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 182.5%;
+    color: transparent;
+}
+    }
+    h6{
+        color: #1A1A1A;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 9.36px;
+text-transform: uppercase;
+    }
+}
+.card
+{
+  margin-bottom: 22px;
+}
+.list-photo{
+    img{
+        height: 570px;
+        max-width: 570px;
+    }
+    
+
+}

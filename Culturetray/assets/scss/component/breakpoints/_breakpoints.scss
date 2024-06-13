@@ -1,0 +1,291 @@
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .events-menu {
+        padding: 94px 57px 46px 62px;
+      }
+      .make-menu {
+        padding: 0 79px;
+      }
+      .join-menu {
+        padding: 0 84px;
+      }
+      .blog-menu-item {
+        padding: 0 84px;
+      }
+      .banner-text {
+        padding-top: 58px;
+      }
+      .Search-Event {
+        margin-top: -92px;
+      }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    .join-menu {
+        padding: 0 0px;
+      }
+      .blog-menu-item {
+        padding: 0 0px;
+      }
+      .join-these-brands {
+        padding: 50px;
+      }
+      .searc-menu {
+        padding: 30px;
+      }
+      .Search-Event {
+        margin-top: -94px;
+      }
+      .events-menu {
+        padding: 74px 0px 46px 0px;
+      }
+      .even-select {
+        gap: 25px;
+      }
+      .banner-text h4 {
+        font-size: 34px;
+      }
+      .banner-text p {
+        font-size: 16px;
+      }
+      .Search-Event {
+        max-width: 767px;
+      }
+      .near-text h5 {
+        font-size: 14px;
+      }
+      .near-text p {
+        font-size: 13px;
+      }
+      .make-text h5 {
+        font-size: 32px;
+      }
+      .blog-item-list h6 {
+        font-size: 16px;
+        padding-bottom: 15px;
+        
+      }
+      .blog-item-list p {
+        font-size: 13px;
+      }
+      .news-plane h6 {
+        font-size: 8.16px;
+      }
+      .form-control {
+        font-size: 13px;
+      }
+      .company-menu ul li {
+        margin-bottom: 10px;
+      }
+      .quick-link ul li {
+        margin-bottom: 10px;
+      }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .banner-text h4 {
+        font-size: 18px;
+        line-height: 36.47px;
+  padding-bottom: 14px;
+      }
+      .banner-text p {
+        font-size: 11px;
+        padding-bottom: 27px;
+      }
+      .banner-btn a {
+        padding: 7px 11px;
+        font-size: 12px;
+      }
+      .form-select {
+        font-size: .7rem;
+      }
+      .menu-select-text h3 {
+        font-family: Open Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 65.37px;
+      }
+      .even-select {
+        gap: 10px;
+      }
+      .events-menu ul {
+        grid-template-columns: repeat(2, auto);
+      }
+      .make-menu {
+        padding: 0 0px;
+      }
+      .make-text h5 {
+        font-size: 15px;
+      }
+      .make-text p {
+        font-size: 12px;
+      }
+      .make-text h6 {
+        font-size: 14px;
+      }
+      .join-header-text p {
+        font-size: 15px;
+      }
+      .join-menu ul {
+        gap: 25px;
+      }
+      .blog-head-text p {
+        font-size: 16px;
+      }
+      .blog-menu-item ul {
+        grid-template-columns: repeat(2, auto);
+      }
+      .news-plane h6 {
+        top: 3px;
+        font-size: 13.16px;
+      }
+      .form-control {
+        font-size: 16px;
+      }
+      .menu-opner{
+        display: block;
+        cursor: pointer;
+        padding: 0 10px;
+     }
+         
+     .menu-opner-list{
+      display: block;
+      a{
+        color: #ffffff;
+    }
+  }
+     .header-text{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        padding: 40px;
+        transition: .3s;
+        background-color: #fff;
+        color: #000;
+        z-index: 1;
+        ul{
+          display: block;
+          li{
+            a{
+              color: #000;
+            }
+          }
+        }
+        &.active{
+            left: 0;
+        }
+     }
+     .header-close{
+      display: block;
+     }
+     .head-btn{
+      border: 1px solid #000;
+     }
+     .header-text ul li:hover .head-btn {
+      background: #000;
+      color:#ffffff;
+     }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+  .banner-btn a {
+    padding: 7px 9px;
+    font-size: 10px;
+  }
+  .banner-btn {
+    gap: 30px;
+  }
+  .join-menu ul {
+    gap: 15px;
+  }
+  .blog-head-text h3 {
+    font-size: 37px;
+  }
+  .blog-item-list h6 {
+    font-size: 13px;
+    padding-bottom: 9px;
+  }
+  .join-header-text h3 {
+    font-size: 36px;
+  }
+  .join-header-text p {
+    font-size: 12px;
+  }
+  .blog-head-text p {
+    font-size: 14px;
+  }
+  .make-text h6 {
+    font-size: 12px;
+  }
+ }
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+  .banner-menu {
+    display: block;
+  }
+  .banner-text h4 {
+    font-size: 28px;
+    line-height: 42.47px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  .banner-btn a {
+    padding: 8px 13px;
+    font-size: 15px;
+  }
+  .delect-from h6 {
+    font-size: 12px;
+  }
+  .menu-select-text {
+    display: block;
+  }
+  .menu-select-text h3 {
+    font-size: 31px;
+    padding-bottom: 20px;
+  }
+  .events-menu ul {
+    grid-template-columns: repeat(1, auto);
+  }
+  .near-text h5 {
+    font-size: 17px;
+  }
+  .make-menu {
+    display: block;
+  }
+  .make-text h5 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  .make-text p {
+    font-size: 15px;
+  }
+  .make-text h6 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .join-these-brands {
+    padding: 10px;
+  }
+  .join-header-text p {
+    padding-bottom: 17px;
+  }
+  .join-menu ul {
+    grid-template-columns: repeat(2, auto);
+    gap: 22px;
+  }
+  .blog-menu-item ul {
+    grid-template-columns: repeat(1, auto);
+  }
+  .blog-item-list h6 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .footer-section {
+    padding: 60px 19px 100px 20px;
+  }
+ }

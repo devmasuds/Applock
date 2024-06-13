@@ -1,0 +1,35 @@
+.regular-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.regular-text{
+    h3{
+        font-size:40px;
+        font-weight: 900;
+        font-family: serif;
+        margin-bottom: 20px; 
+    }
+    p{
+        font-size:20px;
+        font-weight: 300;
+        font-family: serif;
+
+    }
+    ul{
+        li{
+            font-size:25px;
+            font-weight: 300;
+            font-family: serif; 
+            margin-bottom: 10px;
+            i{
+                padding: 0 20px 0px 0px;
+            }
+        }
+    }
+}
+.regular-section{
+    padding: 70px 0;
+    background: #fdfbfb78;
+}

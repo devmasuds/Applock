@@ -1,0 +1,36 @@
+.afoot-love{
+    padding: 100px 0;
+}
+.dfoot-head-text{
+    padding-top: 75px;
+    h6{
+        color: #F88808;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%;
+    }
+    h3{
+        color: #1A1A1A;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 182.5%;
+    }
+    p{
+        color: #474747;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%;
+    }
+}
+.dfoot-down{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}

@@ -1,0 +1,101 @@
+.latest-blog{
+    padding: 100px 0;
+    h2{
+        font-family: "Manrope";
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+text-align: center;
+
+    }
+}
+
+.latest-menu{
+    padding-top: 55px;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        gap: 30px;
+        
+    }
+}
+.latest-profile{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    img{
+        margin-bottom: 20px;
+
+    }
+    h6{
+        font-family: "Manrope";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 20px;
+
+    }
+    h4{
+        font-family: "Manrope";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: left;
+        color: #1A346D;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #1A346D;
+        margin-bottom: 30px;
+
+    }
+    span{
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #1A346D;
+        i{
+            padding: 0 10px;
+            color: #1A346D;
+            font-size: 16px;
+            transition: .3s;
+        }
+
+    }
+}
+
+.latest-profile span:hover i{
+    margin-left: 5px;
+}
+
+.latest-btn{
+    margin-top: 56px;
+    a{
+        border: 1px solid #1351D8;
+        padding: 15px 42px;
+        border-radius: 50px;
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: left;
+        transition: .3s;
+        i{
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+    }
+}
+
+.latest-btn a:hover{
+    background-color: #1351D8;
+    color: white;
+}

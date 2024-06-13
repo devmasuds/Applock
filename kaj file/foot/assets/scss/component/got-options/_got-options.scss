@@ -1,0 +1,41 @@
+.got-options{
+    background: #F5F5F5;
+}
+.got-option-odar{
+    padding: 100px 20px;
+    h3{
+        color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+    }
+    p{
+     padding-bottom: 20px;
+        color: #474747;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 182.5%;
+    }
+  .got-option-btn{
+     
+        width: 170px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #F88808;
+        color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%;
+i{
+    padding: 0 10px;
+}
+    }
+}
+

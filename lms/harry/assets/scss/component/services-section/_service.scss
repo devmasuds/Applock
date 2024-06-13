@@ -1,0 +1,151 @@
+.service-menu{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 30px;
+}
+.service-text-item{
+    border: 1px solid #EAEAEF;
+    padding: 50px 30px;
+    &:hover{
+        background-color: #6364DB;
+         h3,p{
+            color: white;
+         }
+         a{
+         background-color: #fff;
+         }
+        }
+    img{
+        height: 40px;
+        width: 40px;
+
+    }
+    h3{
+        font-family: "Space Grotesk";
+font-size: 24px;
+font-weight: 700;
+line-height: 30.62px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #000000;
+margin-bottom: 12px;
+margin-top: 34px;
+
+    }
+    p{
+        font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #525258;
+margin-bottom: 38px;
+    }
+    a{
+        font-family: "Space Grotesk";
+font-size: 14px;
+font-weight: 500;
+line-height: 17.86px;
+letter-spacing: -0.02em;
+text-align: left;
+padding: 10px 20px;
+border: 1px solid #EAEAEF;
+color: #03041C;
+
+        img{
+            width: 5px;
+            height: 8px;
+        }
+    }
+}
+
+.service-head-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.servics-web-menu {
+  margin: 100px;
+}
+
+
+
+.service-head-text{
+    h1{
+        font-family: "Space Grotesk";
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #03041C;
+        margin-bottom: 50px;
+        position: relative;
+        span{
+            color: red;
+            
+        }
+        
+    }
+    a{
+        font-family: "Space Grotesk";
+font-size: 14px;
+font-weight: 700;
+line-height: 17.86px;
+letter-spacing: -0.02em;
+text-align: right;
+color: #03041C;
+border-bottom:1px solid#03041C;
+i{
+    padding: 0 10px;
+}
+
+    }
+}
+.text-dounline{
+    margin-top: -50px;
+    padding-left: 109px;
+    padding-bottom: 50px;
+    img{
+       
+        height: 26px;
+        width: 220px;
+
+    }
+}
+.text-dounline3{
+    margin-top: -118px;
+    padding-left: 109px;
+    padding-bottom: 50px;
+    img{
+       
+        height: 26px;
+        width: 200px;
+
+    }
+}
+.text-dounline4{
+    margin-top: -118px;
+    padding-left: 327px;
+    padding-bottom: 50px;
+    img{
+       
+        height: 26px;
+        width: 200px;
+
+    }
+}
+.text-dounline5{
+    margin-top: 4px;
+    padding-left: 513px;
+    padding-bottom: 0px;
+    img{
+       
+        height: 26px;
+        width: 200px;
+
+    }
+}

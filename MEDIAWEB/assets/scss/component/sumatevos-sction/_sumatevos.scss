@@ -1,0 +1,102 @@
+.sumatevos-sction{
+    background-color: #6b95b719;
+
+}
+.sumate-head-text{
+    h2{
+        font-family: 'Arial Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 90px;
+        color: #502274;
+    }
+}
+
+.vos-profile{
+    padding: 50px 17px;
+    background: #19717037;
+    border-radius: 20px;
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        border: 2px solid #0000;
+    }
+    h5{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 32px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 20px;
+        li{
+            a{
+                color: #000;
+                font-size: 16px;
+            }
+        }
+    }
+    
+}
+
+.sumate-vos-profile{
+    margin-top: 50px;
+}
+
+.sumatevos-menu{
+    padding: 50px 180px;
+}
+
+.sumate-vos-profile{
+    position: relative;
+}
+
+.sumatevos-next{
+    position: absolute;
+    right: 127px;
+    bottom: -107px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: .3s;
+    }
+    .sumatevos-prev{
+        position: absolute;
+        right: 47px;
+        bottom: -106px;
+        box-sizing: border-box;
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 10px 15px;
+        transition: .3s;
+        }
+
+        .sumate-vos-profile .sumatevos-next:hover{
+            background: #D2E823;
+        }
+        
+        .sumate-vos-profile .sumatevos-prev:hover{
+            background: #D2E823;
+        }

@@ -1,0 +1,136 @@
+.footer-section{
+    background: #000000d2;
+}
+.footer-img{
+    display: flex;
+    margin-bottom: 30px;
+    img{
+        height: 40px;
+        width: 40px;
+    }
+    h4{
+        font-size:25px;
+        font-weight: 500;
+        font-family: serif;
+    }
+}
+.footer-section {
+    padding: 234px 0px 100px 0px;
+    margin-top: -121px;
+    z-index: 1;
+  }
+.maan-footer{
+    p{
+        font-size:17px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 20px;
+
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        li{
+            font-size: 25px;
+            background-color: rgba(255, 0, 0, 0.49);
+            padding: 5px 10px;
+            border-radius:10px ;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+   gap: 50px;
+    h6{
+        margin-bottom: 40px;
+        i{
+            color: red;
+            padding:0px 15px;
+            font-size: 20px;
+        }
+    }
+}
+.quick-link{
+    h3{
+        font-size:25px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 20px;
+    }
+    ul{
+        li{
+            margin-bottom: 15px;
+            a{
+                font-size:20px;
+                font-weight: 200;
+                font-family: serif;  
+                color: white;
+            }
+        }
+    }
+}
+.company-menu{
+    h3{
+        font-size:25px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 20px;
+    }
+    ul{
+        li{
+            margin-bottom: 15px;
+            a{
+                font-size:20px;
+                font-weight: 200;
+                font-family: serif;  
+                color: white;
+            }
+        }
+    }
+}
+.news-letter{
+    h3{
+        font-size:25px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size:17px;
+        font-weight: 200;
+        font-family: serif;
+        margin-bottom: 30px;
+    }
+    span{
+        font-size:17px;
+        font-weight: 200;
+        font-family: serif;
+        opacity: .5;
+    }
+    input{
+        margin-bottom: 10px;
+        
+    }
+ 
+}
+.news-plane{
+    position: relative;
+    h6{
+        position: absolute;
+        right: 9px;
+        top: 1px;
+        z-index: 11;
+        color: white;
+        background: red;
+        padding: 8px;
+        margin-top: 5px;
+    }
+}
+.form-control {
+    padding: 0.75rem 0.75rem;
+  }

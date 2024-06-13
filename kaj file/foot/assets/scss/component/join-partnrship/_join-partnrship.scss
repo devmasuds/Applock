@@ -1,0 +1,62 @@
+.join-partnrship{
+    background: #FFF;
+}
+.partnr-ship{
+    padding-top: 30px;
+}
+.card-bodys{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h4{
+        padding-top: 30px;
+        color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .card-btns{
+       margin-top: 20px;
+        width: 169px;
+height: 53px;
+flex-shrink: 0;
+color: #F88808;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 182.5%;
+background: none;
+border-radius: 6px;
+border: 1px solid #F88808;
+   i{
+    padding: 0 10px;
+   }
+    }
+}
+.join-deli{
+    padding: 50px;
+    h1{
+        color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+    }
+}
+.ship-patnar{
+    color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+padding-bottom: 50px;
+}
+.card-bodys:hover button{
+    background-color:  #F88808;
+    color: white;
+}

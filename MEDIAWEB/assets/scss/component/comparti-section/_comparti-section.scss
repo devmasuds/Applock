@@ -1,0 +1,42 @@
+.comparti-section{
+    background-color: #FFBB25;
+    position: relative;
+
+
+}
+.comparti-text{
+    padding-top: 70px;
+    h3{     
+font-family: 'Arial Black';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 59px; 
+color: #502274;
+margin-bottom: 50px;
+
+    }
+    p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+color: #502274;
+margin-bottom: 120px;
+
+
+    }
+}
+.comparti-img{
+    position: absolute;
+    bottom: 0;
+    right: -58%;
+  top: 25%;
+
+  
+    img{
+        height: 477px;
+  max-width: 583px;
+    }
+}

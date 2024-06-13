@@ -1,0 +1,21 @@
+.list{
+    text-transform: uppercase;
+    border-collapse: collapse;
+    border-color: rgba(1, 11, 19, 0.641);
+}
+.list tbody tr td{
+    padding: 10px;
+    font-family: 1px;
+}
+.list th{
+   background: #55e866;
+   color: antiquewhite;
+} 
+.list tbody tr:first-child{
+    background: gainsboro;
+    color: #000;
+}
+.list tbody tr:last-child{
+    background: #4c09b0ac;
+    color: red;
+}

@@ -1,0 +1,38 @@
+.top-header-section{
+    background-color: #4d4d4d;
+}
+.head-contac-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-loction{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    a{
+        color: #fff;
+        span{
+            color: #1da493;
+        }
+    }
+}
+.head-contac-online{
+    padding-top: 13px;
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        li{
+            a{
+                font-size: 19px;
+                color: #32dbc6;
+            }
+        }
+    }
+}
+.manu-opner
+{
+  display: none;
+}
+

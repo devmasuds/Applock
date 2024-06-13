@@ -1,0 +1,166 @@
+.burger-xpress{
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 10px 43px 2px rgba(0, 0, 0, 0.15);
+}
+.shef-icon{
+    img{
+        width: 148px;
+        height: 148px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+}
+
+.burgae-pres{
+    a{
+        color: #1A1A1A;
+        font-feature-settings: 'liga' off;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 182.5%;
+    }
+    h6{
+        color: #474747;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 182.5%; 
+i{
+    width: 14.016px;
+    height: 23.916px;
+    flex-shrink: 0;
+    color:#F88808;
+}
+    }
+}
+.text-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        color: #474747;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 182.5%; 
+i{
+   padding: 5px;
+}
+svg{
+padding: 5px;
+}
+    }
+}
+.opn-now{
+   a{
+    color: #5CB523;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 182.5%;
+
+   }
+}
+
+.vurg-item{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    h6{
+        color: #F88808;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 182.5%;
+    }
+    span{
+        width: 109px;
+        height: 41px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: #DA1717;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 182.5%;
+        text-align: center;
+        padding-top: 4px;
+    }
+}
+
+.see-ster{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding-top: 60px;
+    h6{
+        color: #757575;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 182.5%;
+    }
+}
+.ster-list{
+    padding-top: 15px;
+    ul{
+        
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+        li{
+            color: #1A1A1A;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 182.5%; 
+        }
+}}
+
+
+.burger-menu{
+    padding:20px 40px;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        background: #ECECEC;
+        padding: 30px;
+        li{
+            a{
+                color: #383838;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 182.5%; 
+            }
+        }
+    }
+}
+
+
+.burgar-press{
+    margin-top: -175px;
+    position: relative;
+}
+.burger-menu  ul li:hover a{
+    color: #F88808;
+}
